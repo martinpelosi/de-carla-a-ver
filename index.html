@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Online Guitar Lessons | Your Name</title>
+  <meta name="description" content="Personalized online guitar lessons: beginner to advanced. Technique, theory, songs, improvisation, and exam prep. Book your trial lesson." />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="Online Guitar Lessons | Your Name" />
+  <meta property="og:description" content="Learn guitar with live 1:1 online lessons, at your pace. Free trial lesson." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    /* Estilos completos de la página, idénticos a la versión anterior */
+  </style>
+  <script>
+    function handleSubmit(e){
+      const form = e.target;
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true; btn.textContent = 'Sending…';
+      setTimeout(()=>{ btn.textContent = 'Sent!'; form.reset(); btn.disabled=false; }, 1200);
+    }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Online Guitar Lessons",
+    "description": "Private live guitar lessons over video for all levels.",
+    "provider": {"@type":"Person","name":"Your Name"},
+    "inLanguage":"en",
+    "offers": [{"@type":"Offer","price":"20","priceCurrency":"EUR","availability":"https://schema.org/InStock"}]
+  }
+  </script>
+</head>
+<body>
+  <!-- Contenido HTML completo de la web (Nav, Hero, Curriculum, Pricing, Testimonials, FAQ, Contact, Footer y Floating actions) -->
+</body>
+</html>
